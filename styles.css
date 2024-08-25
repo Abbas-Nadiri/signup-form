@@ -1,0 +1,67 @@
+@font-face {
+    font-family: odin-font;
+    src: url(images-fonts/Norse-Bold.otf);
+}
+
+body {
+    margin: 0px;
+    display: flex;
+}
+
+
+.background-div {
+    background-image: url("images-fonts/bgimg.jpg");
+    background-size: cover;
+    width: 40vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.odin-logo {
+    font-family: "odin-font", "Times New Roman", Times, serif;
+    position: absolute;
+    width: 40vw;
+    color: white;
+    font-size: 120px;
+    background: rgb(0, 0, 0, 0.5);
+    margin-top: 200px;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credits {
+    color: white;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+a {
+    color: white;
+}
+
+.right-side {
+    width: 60vw;
+    height: 100vh;
+}
+
+.top-section {
+    background-color: white;
+    height: 33vh;
+}
+
+.form {
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 34vh;
+}
+
+.bottom-section {
+    background-color: white;
+    height: 33vh;
+}
